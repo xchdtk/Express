@@ -13,8 +13,6 @@ app.get('/', (req, res) => {
 app.use('/admin', admin);
 app.use('/contact', contact);
 
-
-
 app.listen( port, () => {
     console.log('Express listhening on port', port)
 })
