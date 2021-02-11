@@ -1,8 +1,8 @@
 {
-  "name": "hello-express",
+  "name": "express_2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start" : "npx nodemon app.js"
   },

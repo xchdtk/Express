@@ -1,7 +1,5 @@
 const express = require('express');
-
-const admin   = require('./routes/admin')
-const contact   = require('./routes/contact')
+const admin   = require('./routes/admin') 
 
 const app = express();
 const port = 3000;
@@ -11,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/admin', admin);
-app.use('/contact', contact);
+
 
 app.listen( port, () => {
     console.log('Express listhening on port', port)
